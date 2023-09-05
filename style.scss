@@ -1,0 +1,32 @@
+$bgColor : lavender;
+$color : springgreen;
+$inputcolor : lightblue;
+
+#login {
+    background-color: $bgColor;
+    border-style: solid;
+    border-width : 2px;
+    border-color: $color;
+    width : 400px;
+    height : 200px;
+    padding : 40px;
+    border-radius: 15px;
+}
+
+.user {
+    width : auto;
+    height: 30px;
+    background-color: $inputcolor;
+    border-style : solid;
+    border-width : 1px;
+    border-radius: 10px; 
+}
+
+#btn {
+    width: 80px; 
+    height: 25px; 
+    float : right;
+    background-color: $color; 
+    border-style: none;
+    border-radius : 5px; 
+}
